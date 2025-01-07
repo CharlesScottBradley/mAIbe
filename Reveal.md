@@ -10,7 +10,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAkAAAMAAAABAAEAAAAMAAECAAAA'); /* Placeholder for base64 encoded image */
+            background-image: url('https://github.com/CharlesScottBradley/mAIbe/blob/main/image%20(1).jpg?raw=true');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
