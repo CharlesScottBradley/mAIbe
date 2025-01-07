@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$mAIbe_Reveal_Countdown</title>
+    <title>$MAIYBE COUNTDOWN</title>
     <style>
         body {
             display: flex;
@@ -11,9 +10,13 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #000;
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4QAuRXhpZgAATU0AKgAAAAgAAkAAAMAAAABAAEAAAAMAAECAAAA'); /* Placeholder for base64 encoded image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: #fff;
             font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 4px #000; /* Adding text shadow for better readability */
         }
         #countdown {
             font-size: 5em;
