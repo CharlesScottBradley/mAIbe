@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$MAIYBE COUNTDOWN</title>
+    <title>mAIbe reveal</title>
     <style>
         body {
             display: flex;
@@ -10,13 +10,9 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-image: url('https://github.com/CharlesScottBradley/mAIbe/blob/main/image%20(1).jpg?raw=true');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background-color: #000;
             color: #fff;
             font-family: 'Arial', sans-serif;
-            text-shadow: 2px 2px 4px #000; /* Adding text shadow for better readability */
         }
         #countdown {
             font-size: 5em;
