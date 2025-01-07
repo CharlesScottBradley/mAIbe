@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REVEAL TIMER</title>
+    <title>Countdown to Midnight EST</title>
     <style>
         body {
             display: flex;
@@ -27,11 +27,11 @@
         function updateCountdown() {
             const now = new Date();
             let midnightEST = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-
+            
             // Set to midnight EST
             midnightEST.setHours(24, 0, 0, 0); 
             // If it's past midnight EST, set to next day's midnight
-            if (now.toLocaleString('en-US', { timeZone: 'America/New_York' }).split(',')[1].split(':')[0] >= 24) {
+            if (midnightEST <= now) {
                 midnightEST.setDate(midnightEST.getDate() + 1);
             }
 
@@ -45,7 +45,8 @@
             setTimeout(updateCountdown, 1000);
         }
 
-        updateCountdown(); // Start the countdown
+        // Start the countdown immediately rather than waiting for the page to fully load
+        window.onload = updateCountdown;
     </script>
 </body>
 </html>
